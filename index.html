@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilitey.css">
+</head>
+
+<body>
+    <div class="cantainer flex bg-black ">
+        <div class="left">
+            <div class="home bg-grey  rounded m-1 p-1">
+                <div class="logo">
+                    <h1>Logo</h1>
+                    <div class="close">
+                        <img class="invert closes" src="close.svg" alt="">
+                    </div>
+                </div>
+
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h4>Your_Library</h4>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <!-- <li></li> -->
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/bd-en/legal/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/bd-en/privacy/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/bd-en/legal/privacy-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Privacy</span></a></div>
+                    <div><a href="https://www.spotify.com/bd-en/legal/cookies-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/bd-en/legal/privacy-policy/#s3" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">About </span></a></div>
+                    <div><a href="https://www.spotify.com/bd-en/accessibility/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded m-2 p-2 ">
+            <div class="header">
+                <div class="nav">
+                    <div>
+                        <img class="heamburger invert" src="hamburger.svg" alt="">
+                        <img class="arrow-left-5-svgrepo-com invert" src="arrow-left-5-svgrepo-com.svg" alt="">
+                        <img class="right-arrow-svgrepo-com invert" src="right-arrow-svgrepo-com.svg" alt="">
+                    </div>
+                    <div class="logo_1">
+                        <h1>Logo</h1>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="sinbtn">Sign up</button>
+                    <button class="logbtn" >Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Logo Playlist</h1>
+                <div class="cartContainer">
+                    <div data-folder="cs" class="card">
+                        <div class="play">
+                            <img src="play-button-svgrepo-com.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" >
+                        <h2>Dinner with Friends</h2>
+                        <p>The perfect soundtrack to those long nights over dinner</p>
+                    </div>
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <img src="play-button-svgrepo-com.svg" alt="">
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                        <div class="Text__TextElement-sc-if376j-0 cZUJSD encore-text-body-medium-bold nk6UgB4GUYNoAcPtAQaG"
+                            data-encore-id="text">Chillout Lounge</div>
+                        <p>Just lean back and enjoy relaxed beats.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playber">
+                <div class="playbtns">
+                    <div class="allSong">
+                        <div class="songinfo">
+                        </div>
+                        <div class="songTime">
+                        </div>
+                    </div>
+                    <div>
+                        <img id="previous" class="invert playallpic" src="previous-svgrepo-com.svg" alt="">
+                        <img id="play" class="invert playallpic" src="playbar.svg" alt="">
+                        <img id="next" class="invert playallpic" src="nextplay.svg" alt="">
+                    </div>
+                    <div class="seekber">
+                        <div class="circle">
+                        </div>
+                    </div>
+                </div>
+                <div class="songtime">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

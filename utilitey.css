@@ -1,0 +1,78 @@
+.border{
+    border: 2px solid;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center ;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: #0e0e0e;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #1f0120;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px ;
+
+}
+.m-2{
+    margin: 7px 0;
+
+}
+.p-1{
+    padding: 8px;
+}
+.p-2{
+    padding: 3px;
+}
+
+
+
+/* For WebKit browsers like Chrome and Safari */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2d002f47;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f100fd47;
+    border-radius: 6px;
+    /* border: 3px solid #1a1919; */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #2d002f47;
+  }
+  
+  /* For Firefox */
+  /* Note: You might need to use a Firefox-specific CSS rule to target Firefox browsers */
+  /* This rule is for demonstration purposes, and you may need to adjust it based on your specific case */
+  * {
+    scrollbar-color: #ff0000 #423838;
+  }
+  
+  *::-moz-scrollbar-thumb {
+    background-color: #ffe6e6;
+    border-radius: 6px;
+    border: 3px solid #eb0505;
+  }
+  
+  *::-moz-scrollbar-thumb:hover {
+    background-color: #ff0000;
+  }
