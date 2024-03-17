@@ -23,13 +23,6 @@ function secondsToMinutesAndSeconds(seconds) {
 }
 
 
-
-
-
-
-
-
-
 async function main(folder) {
     currFolder = folder
     let a = await fetch(`http://127.0.0.1:5501/${folder}/`)
@@ -44,7 +37,6 @@ async function main(folder) {
             songs.push(element.href.split(`/${folder}/`)[1])
         }
     }
-
 
     let songUL = document.querySelector(".songlist").getElementsByTagName("ul")[0]
     songUL.innerHTML = ""
